@@ -25,15 +25,15 @@ repositories {
 }
 
 dependencies {
-    implementation("org.springframework.boot:spring-boot-starter-actuator")
-    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
-    implementation("org.springframework.boot:spring-boot-starter-jdbc")
-    implementation("org.springframework.boot:spring-boot-starter-web")
-    compileOnly("org.projectlombok:lombok")
-    runtimeOnly("com.mysql:mysql-connector-j")
-    annotationProcessor("org.projectlombok:lombok")
-    testImplementation("org.springframework.boot:spring-boot-starter-test")
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    implementation("org.springframework.boot:spring-boot-starter-actuator:3.5.5")
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa:3.5.5")
+    implementation("org.springframework.boot:spring-boot-starter-jdbc:3.5.5")
+    implementation("org.springframework.boot:spring-boot-starter-web:3.5.5")
+    compileOnly("org.projectlombok:lombok:1.18.38")
+    runtimeOnly("com.mysql:mysql-connector-j:8.4.0")
+    annotationProcessor("org.projectlombok:lombok:1.18.38")
+    testImplementation("org.springframework.boot:spring-boot-starter-test:3.5.5")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.13.0")
 }
 
 tasks.withType<Test> {
