@@ -34,7 +34,7 @@ dependencies {
     runtimeOnly("com.mysql:mysql-connector-j:8.4.0")
     annotationProcessor("org.projectlombok:lombok:1.18.38")
     testImplementation("org.springframework.boot:spring-boot-starter-test:3.5.5")
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.13.0")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.12.2")
 }
 
 tasks.withType<Test> {
