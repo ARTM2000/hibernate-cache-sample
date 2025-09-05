@@ -29,6 +29,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa:3.5.5")
     implementation("org.springframework.boot:spring-boot-starter-jdbc:3.5.5")
     implementation("org.springframework.boot:spring-boot-starter-web:3.5.5")
+    implementation("org.redisson:redisson-hibernate-6:3.50.0")
     compileOnly("org.projectlombok:lombok:1.18.38")
     runtimeOnly("com.mysql:mysql-connector-j:8.4.0")
     annotationProcessor("org.projectlombok:lombok:1.18.38")

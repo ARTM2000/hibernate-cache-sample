@@ -13,5 +13,15 @@ services:
     volumes:
       - hibernate_cache_mysql_data:/var/lib/mysql
 
+  redis:
+    image: redis:8
+    container_name: redis_container
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
 volumes:
   hibernate_cache_mysql_data:
+  redis_data:
